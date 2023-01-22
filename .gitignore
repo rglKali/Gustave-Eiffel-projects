@@ -1,0 +1,6 @@
+# JetBrains files
+.idea/
+
+# Python files
+__pycache__/
+venv/
