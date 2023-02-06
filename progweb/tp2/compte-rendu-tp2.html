@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Compte-rendu de TP2</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        h1 {
+            font-size: 24pt;
+        }
+        h2 {
+            font-size: 18pt;
+            color: navy;
+        }
+        h3 {
+            font-size: 16pt;
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        a:link {
+            color: red;
+        }
+        a:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="center"><h1>Compte-rendu de TP2</h1></div>
+        <div class="right"><p>Tertilov Vadim!</p></div>
+    <h2>Exercice 1 : Document de base, le retour!</h2>
+        <p>Les tags HTML commencent par une balise ouvrante &lt;foo> et finissent par une balise fermante &lt;/foo>.</p>
+        <p><strong>Comment mettre en gras ou en italique ?</strong></p>
+        <p>Pour mettre en gras, utilisez la balise &lt;strong> ou &lt;b>, pour l'italique, utilisez la balise &lt;em> ou &lt;i>.</p>
+        <p><strong>Comment faire pour mettre un mot à la fois en gras et en italique ?</strong></p>
+        <p>Il suffit de imbriquer les balises &lt;strong> et &lt;em> ou &lt;b> et &lt;i>.</p>
+        <p><strong>Organiser les questions pour qu'elles soient automatiquement numérotées par le navigateur</strong></p>
+        <p>Il suffit d'utiliser la balise &lt;ol> pour créer une liste numérotée, et &lt;li> pour chaque élément de la liste.</p>
+        <p><strong>Pourquoi avoir écrit "Compte-rendu de TP 2" dans l'en-tête puis dans le corps du document ?</strong></p>
+        <p>L'en-tête contient les informations importantes pour le navigateur pour afficher le document correctement, tandis que le corps du document contient le contenu réel à afficher pour l'utilisateur.</p>
+        <p><strong>Ajoutez un lien vers le cours avec comme titre cours de programmation web.</strong></p>
+        <p>Utilisez la balise &lt;a href="url">titre du lien&lt;/a></p>
+        <p><a href="https://www.w3schools.com/html/default.asp">Cours de programmation web</a></p>
+        <p><strong>Image de l'arbre des tags</strong></p>
+        <img src="https://ensweb.users.info.unicaen.fr/pres/html/img/mini-dom.png" alt="Image de l'arbre des tags HTML" width="428" height="258">
+    <h2>Exercice 2 : Les listes et les tables</h2>
+        <p>Dans votre compte-rendu, écrivez la liste suivante sous forme d'une liste numérotée</p>
+        <ol>
+            <li>maths</li>
+            <li>physique</li>
+            <li>français</li>
+        </ol>
+        <p>Recopiez le code de la liste de la question précédente et modifiez-le pour que la liste ne soit plus une liste numérotée mais une liste à puces. Les items seront donc précédés de petits cercles au lieu de chiffres.</p>
+        <ul>
+            <li>maths</li>
+            <li>physique</li>
+            <li>français</li>
+        </ul>
+        <p>Dans votre compte rendu, écrivez la table de multiplication suivante sous forme d'une table HTML</p>
+        <table>
+            <tr>
+                <th> </th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>2</td>
+                <td>4</td>
+                <td>6</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>3</td>
+                <td>6</td>
+                <td>9</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>4</td>
+                <td>8</td>
+                <td>12</td>
+                <td>16</td>
+            </tr>
+        </table>
+        <p>Pour ajouter une case faisant 2 colonnes et une case faisant deux lignes dans une nouvelle table, nous utilisons les attributs rowspan et colspan des balises td. Par exemple :</p>
+        <table>
+            <tr>
+                <td rowspan="2">Une cellule qui occupe deux lignes</td>
+                <td>Une cellule normale</td>
+                <td colspan="2">Une cellule qui occupe deux colonnes</td>
+            </tr>
+            <tr>
+                <td>Une cellule normale</td>
+                <td>Une cellule normale</td>
+                <td>Une cellule normale</td>
+            </tr>
+        </table>
+        <p>Pour ajouter une case faisant 2 colonnes et une case faisant 2 lignes dans une table HTML, on utilise les attributs colspan et rowspan.</p>
+        <p>L'attribut colspan permet de faire en sorte que la case courante s'étend sur plusieurs colonnes. On précise la valeur de l'attribut en fonction du nombre de colonnes souhaitées. Par exemple, colspan="2" signifie que la case courante doit s'étendre sur 2 colonnes.</p>
+        <p>L'attribut rowspan permet de faire en sorte que la case courante s'étend sur plusieurs lignes. On précise la valeur de l'attribut en fonction du nombre de lignes souhaitées. Par exemple, rowspan="2" signifie que la case courante doit s'étendre sur 2 lignes.</p>
+        <p>Pour trouver cette information, vous pouvez consulter la spécification HTML5 sur <a href="https://www.w3.org/TR/html52/tabular-data.html#attributes-for-td-element">le site du W3C</a></p>
+    <h2 style="color: orange;">Exercice 3 : Mon compte-rendu est trop stylé !</h2>
+
+</body>
+</html>

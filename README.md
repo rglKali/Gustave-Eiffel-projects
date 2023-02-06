@@ -1,1 +1,1 @@
-#### This repo was created to keep all the projects, I've created during my education in the Gustave Eiffel University.
+##### This repo was created for all the projects I've developed during my education in L1 MI in Gustave Eiffel University.
