@@ -1,0 +1,38 @@
+.App {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-size: large;
+}
+
+.Header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+}
+
+.Button {
+  background-color: transparent;
+  font-size: 20px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border-color: gold;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, gold 50%, transparent 50%);
+  background-image: linear-gradient(45deg, gold 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+
+.Button:disabled {
+  border-color: indianred;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, indianred 50%, transparent 50%);
+  background-image: linear-gradient(45deg, indianred 50%, transparent 50%);
+}
+
+.Button:hover {
+  background-position: 0;
+}
