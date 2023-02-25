@@ -1,0 +1,56 @@
+.TP2 {
+  color: lightgray;
+}
+
+.Header {
+  text-align: center;
+}
+
+.Table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.MainCell {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  background-color: slategray;
+  color: #2c3e50;
+}
+
+.Cell {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  background-color: darkslategrey;
+  font-weight: bold;
+}
+
+.SampleCode {
+  background-color: darkslategrey;
+  padding: 10px;
+}
+
+.SampleCode pre {
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.SampleCode code {
+  color: #333;
+}
+
+.Url {
+  color: indianred;
+  text-decoration: none;
+}
+
+.Url:hover {
+  color: orange;
+}
+
+.Url:focus {
+  color: gold;
+}

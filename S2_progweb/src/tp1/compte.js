@@ -1,5 +1,5 @@
 import './styles.css'
-import Exercise from "../utils/exercise";
+import Exercise from "../utils/Exercise";
 
 
 const TP1 = () => {
